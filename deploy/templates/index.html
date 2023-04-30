@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Bike Sharing Prediction
+        </title>
+    </head>
+    <body>
+        <form method="POST">
+            <label for="datetime">Date and time:</label>
+            <input type = "text"  name ="datetime" placeholder= "Enter here"/>
+            <br />
+            <br />
+
+            <label for="datetime">Season:</label>
+            <input type = "text"  name = "season" placeholder= "Enter here"/>
+            <br />
+            <br />
+
+            <label for="datetime">Holidy:</label>
+            <input type = "text"  name = "holiday" placeholder= "Enter here"/>
+            <br />
+            <br />
+
+            <label for="datetime">Workingday:</label>
+            <input type = "text"  name = "workingday" placeholder= "Enter here"/>
+            <br />
+            <br />
+
+            <label for="datetime">Weather:</label>
+            <input type = "text"  name = "weather" placeholder= "Enter here"/>
+            <br />
+            <br />
+
+            <label for="datetime">Tempreture:</label>
+            <input type = "number"  name = "temp" step ="any" placeholder= " Enter here"/>
+            <br />
+            <br />
+
+            <label for="datetime">Feel like:</label>
+            <input type = "number"  name = "atemp" step ="any" placeholder= "Enter here"/>
+            <br />
+            <br />
+
+            <label for="datetime">Humidity:</label>
+            <input type = "number"  name = "humidity" step ="any" placeholder= "Enter here"/>
+            <br />
+            <br />
+
+            <label for="datetime">Windspead:</label>
+            <input type = "number"  name = "windspeed" step ="any" placeholder= "Enter here"/>
+            <br />
+            <br />
+
+
+            <input type = "submit" value = "Submit"/>
+        </form>
+
+        {% if prediction != -1 %}
+            <p>
+            The Bike sharing prediction is: {{prediction}}
+            </p>
+        {% endif %}
+    
+
+
+    </body>
+
+</html>
