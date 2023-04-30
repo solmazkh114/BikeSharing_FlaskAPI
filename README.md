@@ -2,12 +2,16 @@
 
 
 We got the dataset  of this project from [Kaggle](https://www.kaggle.com/competitions/bike-sharing-demand/data?select=sampleSubmission.csv) which was among Kaggle
-competitions. In this competition, participants were asked to combine historical usage patterns with weather data in order to forecast bike rental demand in the Capital Bikeshare 
-program in Washington, D.C.
+competitions. In this competition, participants were asked to combine historical usage patterns with weather data in order to forecast bike rental demand in the Capital Bikeshare program in Washington, D.C.
 
 The aim of this project is to provide a pipeline for predicting the bike rental request, and then create a Flask web API using the trained pipeline.
 
-The repository contains a *BikeSharing.ipynb* notebook and a *deploy* folder. 
+This repository contains a *BikeSharing.ipynb* notebook and a *deploy* repository. The Notebook contains all preprocessing, exploratory data analysis and model training and evaluation steps. Actually, this is the main notebook where we found out about the preprocessing steps needed before model training and the best model. The deploy folder contians three main scripts:
+- run.py
+- preprocess.py
+- index.html
+
+Besides, there is *createpipeline.ipynb* notebook within the deploy folder which is the notebook where we developed the pipeline and saved the pickle file of the trained pipeline *pip.pkl*. In the following we will describe the detials of the above mentioned scripts in detials.
 
 ## run.py
 
