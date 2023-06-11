@@ -11,7 +11,7 @@ This repository contains a *BikeSharing.ipynb* notebook and a *deploy* repositor
 - preprocess.py
 - index.html
 
-Besides, there is *createpipeline.ipynb* notebook within the deploy folder which is the notebook where we developed the pipeline and saved the pickle file of the trained pipeline *pip.pkl*. In the following we will describe the detials of the above mentioned scripts in detials.
+Besides, there is *createpipeline.ipynb* notebook within the deploy folder which is the notebook where we developed the pipeline and saved the pickle file of the trained pipeline *pipe.pkl*. In the following we will describe the detials of the above mentioned scripts in detial.
 
 ## run.py
 
